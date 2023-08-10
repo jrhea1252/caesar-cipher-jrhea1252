@@ -10,4 +10,5 @@ trans_table = str.maketrans(alphabet + alphabet.upper(), shifted_alphabet + shif
 
 cipher_text = user_input.translate(trans_table)
 
-print("Cipher text:", cipher_text)
+
+print("The encrypted sentence is:", cipher_text.lower())
